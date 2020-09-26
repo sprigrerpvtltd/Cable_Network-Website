@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: lavender;
+}
+
+/* navbar css */
+ul li 
+{
+	padding: 5px;
+	font-size: 20px;
+}
+.nav-item a:hover
+{
+	color: red!important;
+}
+.act1 a
+{
+	color: red!important;
+}
+/* home page css */
+.cols
+{
+	padding: 5px 5px;
+}
+
+.tech
+{
+	margin-bottom: 100px;
+}
+.tech-logos ul li
+{
+	list-style: none;
+	float: left;
+	margin-bottom: 200px: 
+}
+.tech-logos ul li a
+{
+	color: gray;
+	padding: 10px;
+	margin: 5px;
+}
+
+/* consumer css */
+.consumer
+{
+	margin-top: 7%;
+}
+#con-cards
+{
+	margin-left: 30%;
+}
+h3
+{
+	color: #e03339;
+}
+.query span
+{
+	color: #e03339;
+}
+.far
+{
+	font-size: 30px;
+	color: white;
+}
+.card-title
+{
+	color: white;
+	font-weight: bold;
+	
+	z-index: 1;
+}
+.consumer-card1
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('assets/img/coustomer1.jpg');
+	background-size: cover;
+	border-radius: 0;
+	opacity: .6;
+}
+.consumer-card2
+{
+	background-image:linear-gradient(rgba(200,0,0,0.5),rgba(200,0,0,0.5)), url('assets/img/contactus.jpg');
+	background-size: cover;
+	border-radius: 0;
+	opacity: .7;
+}
+.consumer-card3
+{
+	background-image: linear-gradient(rgba(200,0,0,0.5),rgba(200,0,0,0.5)),url('assets/img/contactus.jpg');
+	background-size: cover;
+	border-radius: 0;
+	opacity: .7;
+
+}
+.consumer-card4
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('assets/img/consumer3.jpg');
+	background-size: cover;
+	border-radius: 0;
+	opacity: .6;
+}
+
+/* contact us css */
+.contact
+{
+	margin-top: 7%;
+}
+/* Footer css */
+footer p a
+{
+	padding: 5px;
+}
+	/* media query  */
+@media (max-width: 768px) 
+{ 
+	 #tech-partner
+		{
+			height: 200px;
+		} 
+ }
+ @media (max-width: 576px)
+{
+	 #tech-partner
+		{
+			height: 400px;
+		} 
+	.welcome
+	{
+		width: 100%;
+		height: auto;
+	}
+	.consumer
+	{
+		margin-top: 15%;
+	}
+	.contact
+	{
+		margin-top: 15%;
+	}
+	#con-cards
+	{
+		margin-left: 10%;
+	}
+	#con-img
+	{
+		width: 100%;
+		height: auto;
+	}
+
+}
+/* scroll plugin */
+
+#scrollUp
+	{
+		bottom: 20px;
+		right: 20px;
+		background-image: url("assets/img/top.png");
+		width: 38px;
+		height:38px;
+	}
