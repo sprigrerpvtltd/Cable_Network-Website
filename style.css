@@ -24,33 +24,26 @@ ul li
 {
 	color: red!important;
 }
+#company-logo
+{
+	width: 200px;
+	height: 50px;
+}
 /* home page css */
-.cols
+/* .cols
 {
-	padding: 5px 5px;
-}
+	padding: 4px 4px;
+} */
 
-.tech
+bill:hover
 {
-	margin-bottom: 100px;
-}
-.tech-logos ul li
-{
-	list-style: none;
-	float: left;
-	margin-bottom: 200px: 
-}
-.tech-logos ul li a
-{
-	color: gray;
-	padding: 10px;
-	margin: 5px;
+	color: white!important;
 }
 
 /* consumer css */
 .consumer
 {
-	margin-top: 7%;
+	margin-top: 5%;
 }
 #con-cards
 {
@@ -106,12 +99,110 @@ h3
 	opacity: .6;
 }
 
-/* contact us css */
-.contact
+/* channels css */
+.channels
+{
+	margin-top: 5%;
+}
+/* #cols div img
+{
+	margin-left: 60%!important;
+} */
+.hindi-channels
 {
 	margin-top: 7%;
 }
+.hindi-entertainment
+{
+	margin-top: 7%;
+}
+.hindi-regional
+{
+	margin-top: 7%;
+}
+.hindi-news
+{
+	margin-top: 7%;
+}
+.english-entertainment
+{
+	margin-top: 7%;
+}
+.english-movies
+{
+	margin-top: 7%;
+}
+.english-news
+{
+	margin-top: 7%;
+}
+.sports
+{
+	margin-top: 7%;
+}
+.spriitual
+{
+	margin-top: 7%;
+}
+.telugu-regional
+{
+	margin-top: 7%;
+}
+.bengali-regional
+{
+	margin-top: 7%;
+}
+.odia-regional
+{
+	margin-top: 7%;
+}
+.doordarshan
+{
+	margin-top: 7%;
+}
+.kids
+{
+	margin-top: 7%;
+}
+.knowledge
+{
+	margin-top: 7%;
+}
+.others
+{
+	margin-top: 7%;
+}
+.shopping
+{
+	margin-top: 7%;
+}
+.hd-channels
+{
+	margin-top: 7%;
+}
+
+/* contact us css */
+.contact
+{
+	margin-top: 5%;
+}
+.carousel-control-prev-icon
+{
+	background-color: lightgray;
+}
+.carousel-control-next-icon
+{
+	background-color: lightgray;
+}
+/* .cols
+{
+	margin-left: 2%;
+} */
 /* Footer css */
+footer
+{
+	margin-top: 10%;
+}
 footer p a
 {
 	padding: 5px;
